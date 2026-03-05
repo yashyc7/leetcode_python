@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0083-remove-duplicates-from-sorted-list](https://github.com/yashyc7/leetcode_python/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0138-copy-list-with-random-pointer](https://github.com/yashyc7/leetcode_python/tree/master/0138-copy-list-with-random-pointer) |
 ## Backtracking
 |  |
