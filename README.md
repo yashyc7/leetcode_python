@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/yashyc7/leetcode_python/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/yashyc7/leetcode_python/tree/master/0078-subsets) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/yashyc7/leetcode_python/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0209-minimum-size-subarray-sum](https://github.com/yashyc7/leetcode_python/tree/master/0209-minimum-size-subarray-sum) |
 | [0217-contains-duplicate](https://github.com/yashyc7/leetcode_python/tree/master/0217-contains-duplicate) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/yashyc7/leetcode_python/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/yashyc7/leetcode_python/tree/master/0852-peak-index-in-a-mountain-array) |
@@ -22,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/yashyc7/leetcode_python/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/yashyc7/leetcode_python/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/yashyc7/leetcode_python/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0209-minimum-size-subarray-sum](https://github.com/yashyc7/leetcode_python/tree/master/0209-minimum-size-subarray-sum) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/yashyc7/leetcode_python/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/yashyc7/leetcode_python/tree/master/0852-peak-index-in-a-mountain-array) |
 ## Hash Table
@@ -85,4 +87,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/yashyc7/leetcode_python/tree/master/0217-contains-duplicate) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/yashyc7/leetcode_python/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0977-squares-of-a-sorted-array](https://github.com/yashyc7/leetcode_python/tree/master/0977-squares-of-a-sorted-array) |
+## Sliding Window
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/yashyc7/leetcode_python/tree/master/0209-minimum-size-subarray-sum) |
+## Prefix Sum
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/yashyc7/leetcode_python/tree/master/0209-minimum-size-subarray-sum) |
 <!---LeetCode Topics End-->
