@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/yashyc7/leetcode_python/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0138-copy-list-with-random-pointer](https://github.com/yashyc7/leetcode_python/tree/master/0138-copy-list-with-random-pointer) |
 | [0217-contains-duplicate](https://github.com/yashyc7/leetcode_python/tree/master/0217-contains-duplicate) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/yashyc7/leetcode_python/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/yashyc7/leetcode_python/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0344-reverse-string](https://github.com/yashyc7/leetcode_python/tree/master/0344-reverse-string) |
 ## Sorting
 |  |
@@ -92,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/yashyc7/leetcode_python/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/yashyc7/leetcode_python/tree/master/0209-minimum-size-subarray-sum) |
 | [0904-fruit-into-baskets](https://github.com/yashyc7/leetcode_python/tree/master/0904-fruit-into-baskets) |
 ## Prefix Sum
