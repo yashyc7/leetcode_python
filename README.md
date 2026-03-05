@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/yashyc7/leetcode_python/tree/master/0217-contains-duplicate) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/yashyc7/leetcode_python/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/yashyc7/leetcode_python/tree/master/0852-peak-index-in-a-mountain-array) |
+| [0904-fruit-into-baskets](https://github.com/yashyc7/leetcode_python/tree/master/0904-fruit-into-baskets) |
 | [0977-squares-of-a-sorted-array](https://github.com/yashyc7/leetcode_python/tree/master/0977-squares-of-a-sorted-array) |
 ## Binary Search
 |  |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0138-copy-list-with-random-pointer](https://github.com/yashyc7/leetcode_python/tree/master/0138-copy-list-with-random-pointer) |
 | [0217-contains-duplicate](https://github.com/yashyc7/leetcode_python/tree/master/0217-contains-duplicate) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/yashyc7/leetcode_python/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0904-fruit-into-baskets](https://github.com/yashyc7/leetcode_python/tree/master/0904-fruit-into-baskets) |
 ## Linked List
 |  |
 | ------- |
@@ -91,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/yashyc7/leetcode_python/tree/master/0209-minimum-size-subarray-sum) |
+| [0904-fruit-into-baskets](https://github.com/yashyc7/leetcode_python/tree/master/0904-fruit-into-baskets) |
 ## Prefix Sum
 |  |
 | ------- |
