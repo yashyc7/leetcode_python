@@ -1,24 +1,26 @@
 class Solution(object):
-    def twoSum(self, numbers, target):
+    def twoSum(self, nums, target):
         """
         :type numbers: List[int]
         :type target: int
         :rtype: List[int]
         """
-        n = len(numbers)
-        i = 0 
-        j = n-1
-        ans = [0]*2
 
-        while(i<j):
-            current_sum = numbers[i]+numbers[j]
+        low = 0 
+        high = len(nums)-1
+        ans = []
 
-            if (current_sum == target): # if index found then return the indexes  
-                return [i+1,j+1]
-            elif (current_sum<target):
-                i = i+1
-            else : 
-                j = j-1
+        while(low<high):
+            sums = nums[low]+nums[high]
 
-        return [-1,-1]
+            if sums==target:
+                ans.append(low+1)
+                ans.append(high+1)
+                break
+            if sums<target:
+                low = low+1
+            if sums>target: 
+                high = high-1
+        return ans
+             
         
