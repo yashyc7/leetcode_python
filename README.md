@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/yashyc7/leetcode_python/tree/master/0076-minimum-window-substring) |
 | [0138-copy-list-with-random-pointer](https://github.com/yashyc7/leetcode_python/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/yashyc7/leetcode_python/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/yashyc7/leetcode_python/tree/master/0142-linked-list-cycle-ii) |
 | [0217-contains-duplicate](https://github.com/yashyc7/leetcode_python/tree/master/0217-contains-duplicate) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/yashyc7/leetcode_python/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/yashyc7/leetcode_python/tree/master/0424-longest-repeating-character-replacement) |
@@ -54,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0083-remove-duplicates-from-sorted-list](https://github.com/yashyc7/leetcode_python/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0138-copy-list-with-random-pointer](https://github.com/yashyc7/leetcode_python/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/yashyc7/leetcode_python/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/yashyc7/leetcode_python/tree/master/0142-linked-list-cycle-ii) |
 | [0876-middle-of-the-linked-list](https://github.com/yashyc7/leetcode_python/tree/master/0876-middle-of-the-linked-list) |
 ## Backtracking
 |  |
@@ -89,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/yashyc7/leetcode_python/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/yashyc7/leetcode_python/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/yashyc7/leetcode_python/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/yashyc7/leetcode_python/tree/master/0142-linked-list-cycle-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/yashyc7/leetcode_python/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0344-reverse-string](https://github.com/yashyc7/leetcode_python/tree/master/0344-reverse-string) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/yashyc7/leetcode_python/tree/master/0350-intersection-of-two-arrays-ii) |
