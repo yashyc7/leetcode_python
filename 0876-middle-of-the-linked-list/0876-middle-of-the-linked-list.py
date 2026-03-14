@@ -8,6 +8,5 @@ class Solution:
         #start with the slow and the fast pointers
         slow, fast = head , head
         while(fast and fast.next) :
-            slow = slow.next
-            fast = fast.next.next
+            slow,fast = slow.next,fast.next.next
         return slow # the middle Node of the linked list is this so we return the slow pointer such that the judge can traverse the remaining array 
