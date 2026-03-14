@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0083-remove-duplicates-from-sorted-list](https://github.com/yashyc7/leetcode_python/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0138-copy-list-with-random-pointer](https://github.com/yashyc7/leetcode_python/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/yashyc7/leetcode_python/tree/master/0141-linked-list-cycle) |
+| [0876-middle-of-the-linked-list](https://github.com/yashyc7/leetcode_python/tree/master/0876-middle-of-the-linked-list) |
 ## Backtracking
 |  |
 | ------- |
@@ -92,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/yashyc7/leetcode_python/tree/master/0344-reverse-string) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/yashyc7/leetcode_python/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0567-permutation-in-string](https://github.com/yashyc7/leetcode_python/tree/master/0567-permutation-in-string) |
+| [0876-middle-of-the-linked-list](https://github.com/yashyc7/leetcode_python/tree/master/0876-middle-of-the-linked-list) |
 | [0977-squares-of-a-sorted-array](https://github.com/yashyc7/leetcode_python/tree/master/0977-squares-of-a-sorted-array) |
 ## String
 |  |
