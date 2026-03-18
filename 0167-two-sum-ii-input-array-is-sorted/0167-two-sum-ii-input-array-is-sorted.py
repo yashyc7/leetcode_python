@@ -1,26 +1,16 @@
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type numbers: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
+class Solution:
+    def twoSum(self, numbers: List[int], target: int) -> List[int]:
+        i = 0 
+        j = len(numbers)-1
+        sum = 0 
+        while(i<j):
+            sum = numbers[i]+numbers[j]
 
-        low = 0 
-        high = len(nums)-1
-        ans = []
+            if sum == target : 
+                return [i+1,j+1]
+            elif sum < target : 
+                i = i + 1 
+            else : 
+                j = j-1 
 
-        while(low<high):
-            sums = nums[low]+nums[high]
-
-            if sums==target:
-                ans.append(low+1)
-                ans.append(high+1)
-                break
-            if sums<target:
-                low = low+1
-            if sums>target: 
-                high = high-1
-        return ans
-             
         
