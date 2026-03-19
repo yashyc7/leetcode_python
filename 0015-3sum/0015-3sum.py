@@ -24,4 +24,4 @@ class Solution:
                     k = k - 1
 
         # Fix: remove duplicates properly
-        return [ list(x)  for x in set(tuple(x) for x in ans)]
+        return list(map(list, set(map(tuple, ans))))
