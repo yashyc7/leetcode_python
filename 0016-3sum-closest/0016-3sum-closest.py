@@ -1,35 +1,30 @@
-class Solution(object):
-    def threeSumClosest(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: int
-        """
+class Solution:
+    def threeSumClosest(self, nums: List[int], target: int) -> int:
         nums.sort()
-        i =0
-        n = len(nums) 
         result = 0
-        max_diff =float('inf') # infinite values here 
+        n = len(nums)
+        max_diff = float('inf')
+
         for i in range(n-2):
-            j= i+1
-            k= n-1
+            j = i + 1 
+            k = n - 1
+
             while(j<k):
-         
-                sums = nums[i]+nums[j]+nums[k]
-                diff = abs(sums-target) 
-                if (diff<max_diff):
+                total = nums[i]+nums[j]+nums[k]
+                diff = abs(target - total)
+                if diff<max_diff :
                     max_diff = diff 
-                    result = sums
-                if sums == target: 
-                    j=j+1
-                    k=k-1
-                if sums < target : 
-                    j = j+1
-                else : 
-                    k = k-1
+                    result = total
+
+                if total < target  :
+                    j = j+1 
+                elif total == target :
+                    # increase j 
+                    j = j + 1 
+                    # decrese k 
+                    k = k - 1
+                else :
+                    k = k - 1
         return result 
-__import__("atexit").register(lambda:open("display_runtime.txt", "w").write("000"))
 
-
-            
-        
+                
