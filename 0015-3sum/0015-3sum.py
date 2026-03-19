@@ -1,36 +1,27 @@
-class Solution(object):
-    def threeSum(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: List[List[int]]
-        """
-        nums.sort()
-        i =0 
-        n = len (nums)
+class Solution:
+    def threeSum(self, nums: list[int]) -> list[list[int]]:
         ans = []
+        n = len(nums)
+        nums.sort()
 
-        for i in range (n-2):
-            target = -1 * nums[i] # since a + b +c =0  so first element is fixed so b+c = -a make sense 
-            if i>0 and nums[i]==nums[i-1]:
-                continue
-            
+        for i in range(n-2):
             j = i + 1
             k = n - 1
-            
-            while(j<k): 
-                current_sum = nums[j]+nums[k]
-                if (current_sum == target): 
-                    ans.append([nums[i],nums[j],nums[k]]) # store it first since pointers gonna updated 
-                    j=j+1
-                    k= k-1
 
-                    # eleminatig duplicates again 
-                    while(j<k and nums[j]==nums[j-1]):
-                        j=j+1
-                    while(j<k and nums[k]==nums[k+1]):
-                        k=k-1
-                elif current_sum < target : 
-                    j = j+1
-                else : 
-                    k = k-1
-        return ans 
+            while (j < k):
+
+                target = nums[i] + nums[j] + nums[k]
+
+                if target == 0:
+                    ans.append([nums[i], nums[j], nums[k]])
+
+                    j = j + 1
+                    k = k - 1
+
+                elif target < 0:
+                    j = j + 1
+                else:
+                    k = k - 1
+
+        # Fix: remove duplicates properly
+        return [ list(x)  for x in set(tuple(x) for x in ans)]
