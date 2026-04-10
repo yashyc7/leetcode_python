@@ -1,29 +1,31 @@
-class Solution(object):
-    def lengthOfLongestSubstring(self, s):
-        """
-        :type s: str
-        :rtype: int
-        """
-        # logic is len(freq)== size of the window  then it would be the longest substring 
-        # mean the all elements has equal occurence 
-        left = 0
-        n = len(s)
-        freq = {}
-        res = 0
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
 
-        for right in range(n):
+        #if the length of the longest substring is asked then now 
+        # without duplicate meaning each character has exactly one occurence 
+        # hence length of the hashmap should be equal to the length of the current_window 
 
-            freq[s[right]] = freq.get(s[right], 0) + 1
 
-            while (right - left + 1) > len(freq):
-                freq[s[left]] -= 1
+        low = 0 
+        freq = { }
+        ans = 0
 
-                if freq[s[left]] == 0:
-                    del freq[s[left]]
 
-                left += 1
+        for high in range(len(s)): 
 
-            length_of_window = right - left + 1
-            res = max(res, length_of_window)
+            # include information in window 
 
-        return res
+            freq[s[high]] = freq.get(s[high], 0) + 1
+
+            while (len(freq)<high-low+1): #since high-low+1 is the answer to be returned uuntill this is incorrect we would shrink 
+                freq[s[low]]=freq[s[low]]-1 #shrink then outside while update ans 
+
+                if freq[s[low]]==0:
+                    del freq[s[low]]
+                
+                low = low + 1
+
+            if len(freq)==(high-low+1): # update answer with information is right check 
+                ans = max(ans,high-low+1)
+
+        return ans
