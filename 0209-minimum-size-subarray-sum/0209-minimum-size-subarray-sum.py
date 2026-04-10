@@ -1,25 +1,17 @@
-class Solution(object):
-    def minSubArrayLen(self, target, nums):
-        """
-        :type target: int
-        :type nums: List[int]
-        :rtype: int
-        """
-        low =0 
-        total = 0 
+class Solution:
+    def minSubArrayLen(self, target: int, nums: List[int]) -> int:
+        low = 0 
+        windows_sum = 0 
         ans = float('inf')
-        
-        for high in range(len(nums)): 
+        for high in range(len(nums)):
+            windows_sum = windows_sum + nums[high]
 
-            #include the information 
-
-            total += nums[high]
-
-            # while information is correct then shrink 
-            while(total>=target): 
-                length = high-low+1
+            while(windows_sum>=target): 
+                # update  answer :
+                length= high-low+1 
                 ans = min(ans,length)
-                #now shrinking the window
-                total = total - nums[low]
-                low = low+1
-        return 0 if ans == float('inf') else ans
+                #shrink the window 
+                windows_sum = windows_sum - nums[low] # remove low from infomrmation 
+                low = low + 1
+
+        return 0 if ans == float('inf') else ans  
