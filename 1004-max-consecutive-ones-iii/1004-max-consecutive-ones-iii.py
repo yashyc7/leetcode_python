@@ -1,27 +1,19 @@
-class Solution(object):
-    def longestOnes(self, s, k):
-        """
-        :type nums: List[int]
-        :type k: int
-        :rtype: int
-        """
+class Solution:
+    def longestOnes(self, nums: List[int], k: int) -> int:
+        low =  0
+        ans = float('-inf')
+        freq={}
 
-        low = 0 
-        zero_count= 0 
-        ans= float('-inf')
+        for high in range (len(nums)):
+            freq[nums[high]]= freq.get(nums[high],0)+1
+
+            while(freq.get(0,0)>k):
+                freq[nums[low]]=freq[nums[low]]-1
+                if freq[nums[low]]==0:
+                    del freq[nums[low]]
+                low = low + 1
+            length = high -low + 1 
+            ans = max(ans,length)
+        return 0 if ans == float('-inf') else ans 
 
 
-        for high in range(len(s)): 
-
-            if s[high]==0 : 
-                zero_count += 1 
-            while zero_count > k:
-
-                if s[low] == 0:
-                    zero_count -= 1
-
-                low += 1
-
-            # update maximum length
-            ans = max(ans, high - low + 1)
-        return ans
