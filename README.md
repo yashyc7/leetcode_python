@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0977-squares-of-a-sorted-array](https://github.com/yashyc7/leetcode_python/tree/master/0977-squares-of-a-sorted-array) |
 | [1004-max-consecutive-ones-iii](https://github.com/yashyc7/leetcode_python/tree/master/1004-max-consecutive-ones-iii) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/yashyc7/leetcode_python/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
+| [1848-minimum-distance-to-the-target-element](https://github.com/yashyc7/leetcode_python/tree/master/1848-minimum-distance-to-the-target-element) |
 ## Binary Search
 |  |
 | ------- |
