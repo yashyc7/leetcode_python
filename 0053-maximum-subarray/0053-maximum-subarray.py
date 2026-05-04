@@ -1,16 +1,19 @@
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         best_ending = nums[0]
-        answer = nums[0]
-        
-        for i in range (1,len(nums)):
-            var_1 = nums[i]
-            var_2 = best_ending + nums[i]
+        final_answer = nums[0]
 
-            # update the previous best ending at the known i-1 place 
-            best_ending = max(var_1,var_2)
+        for i in range(1,len(nums)):
+
+            #starting from index 1 getting two versions of answers
+            version_1 = nums[i]
+            version_2 = best_ending + nums[i]
+
+            #updating the best_ending here 
+
+            best_ending = max(version_1 , version_2)
 
             # update the answer 
-            answer = max(answer, best_ending)
+            final_answer = max(final_answer, best_ending)
 
-        return answer 
+        return final_answer 
