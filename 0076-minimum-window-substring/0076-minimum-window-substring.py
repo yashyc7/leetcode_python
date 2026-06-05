@@ -28,7 +28,7 @@ class Solution(object):
                 matched += 1
 
             # while information is correct shrink the window
-            while matched == required:
+            while matched >= required:
                 length = high - low + 1
                 if length < answer:
                     answer = length
