@@ -1,25 +1,35 @@
 # Definition for singly-linked list.
-# class ListNode:
+# class ListNode(object):
 #     def __init__(self, x):
 #         self.val = x
 #         self.next = None
 
-class Solution:
-    def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
+class Solution(object):
+    def detectCycle(self, head):
+        """
+        :type head: ListNode
+        :rtype: ListNode
+        """
 
-        slow, fast = head, head
+        # here we have the linked list with the head 
+        # what we would do is to use the floyd cycle detection algorithm here 
+        #start slow and the fast pointer with the head 
 
-        # Detect cycle
-        while fast and fast.next:
-            slow, fast = slow.next, fast.next.next
-            if slow == fast:
-                break
-        else:
-            return None
+        slow,fast = head , head 
 
-        # Find cycle start
-        slow = head
-        while slow != fast:
-            slow, fast = slow.next, fast.next
+        # iterate with slow with x 1 and with fast with x 2 speed
+        while(fast and fast.next):
+            slow,fast = slow.next , fast.next.next
+            if slow==fast :  # if they meet at some point then break out of loop 
+                break 
+        else: 
+            return None  
+        # outside loop we must set the slow at the point head and leave fast as it is 
+        slow = head 
+        # iterate them untill they meet again 
+
+        while(slow!=fast): 
+            slow = slow.next
+            fast = fast.next
 
         return slow
