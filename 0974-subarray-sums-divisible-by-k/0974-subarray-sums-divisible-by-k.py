@@ -24,9 +24,12 @@ class Solution(object):
 
             if rem < 0 : #handeling the negative case 
                 rem = rem+k
-            res = res + freq.get(rem,0) # update answer if we get this remainder before 
-            freq[rem]=freq.get(rem,0)+1
-
+            # if we have seen this remainder before,
+            if rem in freq:
+                res += freq[rem]
+                freq[rem] += 1
+            else:
+                freq[rem] = 1
         return res 
 
             
