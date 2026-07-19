@@ -1,16 +1,13 @@
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
-        right = len(numbers)-1
-        left = 0 
-
-        while(left<right):
-            current_sum = numbers[left]+numbers[right]
-
-
+        high = len(numbers)-1
+        low = 0
+        while(low<high):
+            current_sum = numbers[low]+numbers[high]
             if current_sum == target : 
-                return [left+1,right+1]
+                return [low+1,high+1]
+            
             elif current_sum < target : 
-                left = left + 1
-            else: 
-                right = right - 1
-                
+                low = low + 1  #increment low will guarentee increase in current sum ( as the input array is sorted)
+            else : 
+                high = high - 1
