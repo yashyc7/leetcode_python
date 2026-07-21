@@ -1,24 +1,24 @@
 class Solution:
     def sortedSquares(self, nums: List[int]) -> List[int]:
-        i = 0 
-        j = len(nums)-1
-        #taking array of size n 
-        arr = [0]*len(nums) 
+        ans = len(nums) * [0]
+        for i in range(len(nums)):
+            nums[i] = nums[i] * nums[i]
 
-        pos = len(nums)-1
+        # now the array becomes
+        # [16 , 1 , 0 , 9 , 100 ]
 
-        while(i<=j):
-            left_square  = nums[i]**2
-            right_square = nums[j]**2 
+        left = 0
+        right = len(nums) - 1
+        pos = len(ans) - 1
 
-            if left_square > right_square: 
-                arr[pos]= left_square
-                i  = i + 1
-            else : 
-                arr[pos] = right_square
-                j = j - 1
+        # last se bharna shuru karte hain
+        while left <= right:
+            if nums[left] > nums[right]:
+                ans[pos] = nums[left]
+                left = left + 1
+            else:
+                ans[pos] = nums[right]
+                right = right - 1
             pos = pos - 1
 
-        return arr 
-
-        
+        return ans
